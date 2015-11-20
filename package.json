@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "./node_modules/live-server/live-server.js",
+    "deploy": "./node_modules/surge/lib/surge.js -p ./public -d den-bookstore.surge.sh"
+  },
+  "devDependencies": {
+    "live-server": "^0.8.2",
+    "surge": "^0.17.3"
+  }
+}

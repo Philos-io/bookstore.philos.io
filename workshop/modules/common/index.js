@@ -1,0 +1,2 @@
+import angular from 'angular';
+
