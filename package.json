@@ -2,10 +2,16 @@
   "private": true,
   "scripts": {
     "start": "live-server",
+    "server": "nodemon server/",
     "deploy": "surge -p ./public -d den-bookstore.surge.sh"
   },
   "devDependencies": {
     "live-server": "^0.8.2",
+    "nodemon": "^1.8.1",
     "surge": "^0.17.3"
+  },
+  "dependencies": {
+    "cors": "^2.7.1",
+    "express": "^4.13.3"
   }
 }
