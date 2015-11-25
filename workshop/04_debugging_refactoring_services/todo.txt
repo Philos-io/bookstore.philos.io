@@ -1,0 +1,22 @@
+1. Create a file for each component (controller, service, routes...)
+
+2. Create a folder called 'components' and move all the files into the 'components' folder
+
+3. rename bookstore.js into index.js
+
+4. import all the scripts into the entry point of the app (index.html)
+
+5. inject $log service and log BookController's activities
+  5.a Pulic API (.warn, .debug, .error, .info)
+
+6. disable $log.debug before staging your app to production ($logProvider.debugEnabled(true))
+
+7. Let's make our service async
+  7.a Inject the $q and $timeout service and turn the 'getBooks' into an async operation
+  7.b Make sure that you still get the books after the operation 7.a
+
+8. Let's get the data from a server
+  8.a First, run your local server by typing 'npm run server' inside your terminal
+  8.b Inject the $http service and replace your list of books with data coming from this url: '/api/books'
+
+9. $http caching in Angular: cache $http calls
