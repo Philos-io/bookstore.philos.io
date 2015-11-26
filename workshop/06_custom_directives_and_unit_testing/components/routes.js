@@ -4,16 +4,12 @@
   function routes($routeProvider){
     $routeProvider
     .when('/', {
-      controller: 'BookController',
-      templateUrl: 'templates/books.html'
+      template: '<bdp-books></bdp-books>'
     })
     .when('/books/add', {
-      controller: 'BookController',
-      templateUrl: 'templates/add-book.html'
+      template: '<'
     })
     .when('/books/:id', {
-      controller: 'BookController',
-      templateUrl: 'templates/book-details.html'
     });
   }
 

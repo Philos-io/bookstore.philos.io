@@ -1,1 +1,15 @@
+1. Split the index.html into small components;
+  1.a Create a Header component : 'bdp-header'
+  1.b Create a Footer component : 'bpd-footer'
+  1.c Create a main component for your application: <bookstore/>
 
+2. Create a book component
+  2.a It should be an element
+  2.b It should have an isolated scope with a property 'book'
+
+3. Create a books component
+  3.a It should be an element <books/>
+  3.b It should have 
+
+
+5. Create your own version of ng-hide and ng-show

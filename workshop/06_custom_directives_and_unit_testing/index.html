@@ -14,22 +14,7 @@
     <link href="//cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.9/toaster.min.css" rel="stylesheet" />
   </head>
   <body class="grey lighten-5" ng-cloak>
-
-    <nav class="teal darken-3" ng-controller="NavController">
-      <div class="nav-wrapper">
-        <a href="#/" class="brand-logo">{{title}}</a>
-        <form class="right col">
-          <div class="row">
-            <div class="input-field col s12">
-              <i class="mdi-action-search prefix"></i>
-              <!-- Change the url for adding a new book when a user click on this link-->
-              <a class="btn-floating btn-large waves-effect waves-light" href="#/books/add"><i class="mdi-content-add"></i></a>
-            </div>
-          </div>
-        </form>
-      </div>
-    </nav>
-
+    <bdp-header/></bdp-header>
     <ng-view/>
 
     <footer class="page-footer grey lighten-5">
@@ -60,5 +45,6 @@
     <script src="components/book-controller.js"></script>
     <script src="components/book-service.js"></script>
     <script src="components/configuration.js"></script>
+    <script src="components/header-directive.js"></script>
   </body>
 </html>
