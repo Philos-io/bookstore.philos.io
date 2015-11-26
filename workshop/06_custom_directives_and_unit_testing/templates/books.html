@@ -1,6 +1,6 @@
 <div class="row container">
-  <input type="search" placeholder="search books" class="validate" ng-model="search.title"/>
-  <div class="col s12 m3 animated fadeInUpSmall" ng-repeat="book in books | filter:search.title">
+  <input type="search" placeholder="search books" class="validate" ng-model="model.title"/>
+  <div class="col s12 m3 animated fadeInUpSmall" ng-repeat="book in model.books | filter:model.title">
     <div class="card small">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" ng-src="{{book.cover}}" alt="{{book.title}}">
