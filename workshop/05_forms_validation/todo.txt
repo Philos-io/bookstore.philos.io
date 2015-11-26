@@ -1,0 +1,35 @@
+1. Using ControllerAs for adding namespace to your views...
+  1.a removed $scope inside your controllers
+  1.b changed all your routes to use controllerAs
+
+2. Display the details of a book
+  2.a Add a controller 'BookDetailsController' and replace inside the corresponding route 'BookController' by 'BookDetailsController'
+  2.b Inject the $route and BookService services
+  2.c When creating your controller, just get the info of the selected book and bind it to the context using 'angular.extend'
+    -- To get the current book use '$route.current.params.id'
+    -- The associated template is book-details.html
+  2.d Don't forget to handle errors after making an $http call
+
+3. Add a new book
+  3.a Add a controller 'AddBookController' and replace inside the corresponding reoute 'BookController' by 'AddBookController'
+  3.b Inject the BookService and the $location
+  3.c When creating your controller, get the list of covers (http://localhost:9000/api/books/covers) and bind them to the select as requested inside the view (add-book.html)
+    -- more info can be found here: https://docs.angularjs.org/api/ng/directive/ngOptions
+    -- Bind the selected cover to img tag as requested inside the view (add-book.html)
+  3.d Avoid calling the service to get books many times by persisting the covers after the first call
+    -- You can use 'localstorage' or store the covers inside a service (Don't forget that services are singleton)
+  3.e Add a method 'add' in your model view and bind it to your form using either ng-submit or ng-click
+    -- Which one is better?
+  3.f After adding a book successfully redirect the user to the main page using '$location'
+    -- Get to know the API (https://docs.angularjs.org/api/ng/service/$location)
+
+4. Implement the Edit book feature (optional)
+
+5. Forms Validation in Angular (Add book view)
+  5.a Assign a name to your form 'addBookForm'
+  5.b Assign a name to all the inputs (title, author, price, description)
+  5.c Disable autovalidation by the browser
+  5.d All the fields are required but description
+  5.e The submit button should only be enable when all the fields are valid
+  5.f Display meaningful error message when a field is not valid using form directive properties
+
