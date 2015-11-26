@@ -1,3 +1,7 @@
 node_modules
 workshop/modules/
 workshop/templates/
+workshop/03_service_routing_views_filter/solution/
+workshop/04_debugging_refactoring_services/solution/
+workshop/05_forms_validation/solution/
+workshop/06_custom_directives_and_unit_testing/solution/
