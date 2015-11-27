@@ -1,4 +1,5 @@
 1. Create a file for each component (controller, service, routes...)
+  -- don't forget to wrap every single file into an IIFF (function(){})();
 
 2. Create a folder called 'components' and move all the files into the 'components' folder
 
@@ -17,6 +18,6 @@
 
 8. Let's get the data from a server
   8.a First, run your local server by typing 'npm run server' inside your terminal
-  8.b Inject the $http service and replace your list of books with data coming from this url: '/api/books'
+  8.b Inject the $http service and replace your list of books with data coming from this url: 'http://localhost:9000/api/books'
 
 9. $http caching in Angular: cache $http calls
