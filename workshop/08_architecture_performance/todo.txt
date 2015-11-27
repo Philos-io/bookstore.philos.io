@@ -1,0 +1,13 @@
+1. Everything is a component:
+  1.a Inside your book and core modules,  create a component folder and isolate directive component
+    -- Put side by side the directive definition with its template and its controller
+    -- The solution for this part is available in this folder so open it and try to replicate what has been done inside the book module
+
+2. Reduce the number of watchers inside your app by using 'one time binding'
+  -- {{title}} ==> {{::title}}
+
+3. Add track by wherever needed (performance with ng-repeat)
+
+4. Remove debugger information from your view before staging your app in production
+  -- $compileProvider.debugInfoEnabled(false)
+  4.a Using 'angular.reloadWithDebugInfo()' you can have access to the debug info when your app is in production
