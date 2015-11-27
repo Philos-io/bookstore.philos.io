@@ -1,0 +1,27 @@
+1. Split the index.html into small components;
+  1.a Create a Header component : 'bdp-header'
+  1.b Create a Footer component : 'bpd-footer'
+  1.c Create a main component for your application: <bookstore/>
+
+2. Create a book component
+  2.a It should be an element
+  2.b It should have an isolated scope with a property 'book'
+
+3. Rename book.html into search-book.html
+
+4. Open the debugger tool and inspect your DOM
+  -- The goal here is to understand how your app became human readable (kudos!!)
+  -- Inspect your app with batarang to understand how your scopes are layout
+
+4. Upgrade your application to angular 1.4.8
+
+5. Create your own version of ng-hide and ng-show
+  -- This directive hide or show an element on the DOM depending of the condition
+  -- Call them bdp-show and bdp-hide
+  -- They should be define as attributes
+  -- Deep dive into the link function
+
+6. Create your own ng-if (optional and difficult)
+  -- This directive remove an element from the DOM when the condition is false and add it back when true
+  -- Call it bdp-if
+  -- It should be an attribute directive
