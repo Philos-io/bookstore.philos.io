@@ -1,0 +1,2 @@
+1. install new angular routing module (npm i angular-new-router --save)
+2.
