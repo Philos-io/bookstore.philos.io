@@ -1,3 +1,7 @@
+// We're about to embark on something scary good so I'll first start then you guys will take over! 
+// Take a seat and relax the future is now...
+
+
 1. Let's split our components into modules using the module system (import & export)
   1.a Core module (bookstore.book)
   1.b Book module (bookstore.core)
@@ -9,4 +13,4 @@
   2.c remove script for angular and angular router
   2.d move jQuery and materialize below the link script inside the head tag
 
-2. Install angular and angular-route using npm (npm i angular angular-route --save)
+3. Install angular and angular-route using npm (npm i angular angular-route --save)
