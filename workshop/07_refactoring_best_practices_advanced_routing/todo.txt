@@ -1,0 +1,12 @@
+1. Let's split our components into modules using the module system (import & export)
+  1.a Core module (bookstore.book)
+  1.b Book module (bookstore.core)
+  1.c Route module (bookstore.route)
+
+2. Clean up the index file
+  2.a remove all the script
+  2.b add a script pointing to bundle.js (see webpack.config.js for more information)
+  2.c remove script for angular and angular router
+  2.d move jQuery and materialize below the link script inside the head tag
+
+2. Install angular and angular-route using npm (npm i angular angular-route --save)
