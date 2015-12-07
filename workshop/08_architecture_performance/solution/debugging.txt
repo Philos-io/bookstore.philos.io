@@ -1,0 +1,19 @@
+- ES6 (more options)
+  -- Classes
+  -- default parameters
+  -- string literal
+  -- Let vs const vs var
+  -- Native Promise
+
+- Chrome dev tools
+  -- Elements
+    --- Using $0
+  -- Network (time frame)
+    --- Monitor loading time
+    --- Time frame
+    --- 
+  -- Batarang
+  -- Angular Graph
+
+- debugger (console.log)
+- $log vs console.log
