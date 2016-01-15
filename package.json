@@ -2,6 +2,7 @@
   "private": true,
   "scripts": {
     "start": "live-server",
+    "test": "mocha -w",
     "es6": "webpack-dev-server",
     "server": "nodemon server/",
     "deploy": "surge -p ./public -d den-bookstore.surge.sh"
