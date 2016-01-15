@@ -2,10 +2,10 @@ var path = require('path');
 
 module.exports = {
   devtool: 'source-map',
-  entry: './workshop/09_e2e_testing_advanced_angular_concepts/solution/index.js',
+  entry: './workshop/11_broken_bookstore/index.js',
   output: {
     filename: 'bundle.js',
-    path: path.join(__dirname, '/workshop/09_e2e_testing_advanced_angular_concepts/solution')
+    path: path.join(__dirname, '/workshop/11_broken_bookstore/')
   },
   module: {
     loaders: [
@@ -22,7 +22,7 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase: path.join(__dirname, '/workshop/09_e2e_testing_advanced_angular_concepts/solution')
+    contentBase: path.join(__dirname, '/workshop/11_broken_bookstore/')
   }
 };
 
