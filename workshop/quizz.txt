@@ -1,0 +1,25 @@
+1. How many angular app can you start in the same application?
+
+2. ng-bind vs {{}}, which one should you use and when?
+-- 
+
+3. Can you list the 3 types of binding you have in Angular:
+--
+--
+--
+
+4. What is the difference between a factory and a service? (angular.factory vs angular.service)
+
+5. Model available in $rootScope is available to its all child scopes.
+-- true
+-- false
+
+6. How do you create a custom component in Angular?
+-- 
+
+7. Which kind of custom component can you build in Angular?
+-- Attribute component
+--
+--
+
+
